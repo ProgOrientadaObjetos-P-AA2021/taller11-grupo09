@@ -14,6 +14,8 @@ public class MenuCarta extends Menu {
         super(nom, vI);
         valorPorcion = vp;
         valorBebida = vb;
+        setValorServicio();
+        setValorMenu();
     }
 
     public double getValorPorcion() {

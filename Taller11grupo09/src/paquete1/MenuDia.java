@@ -13,6 +13,7 @@ public class MenuDia extends Menu{
         super(nom, vI);
         valorPostre = vp;
         valorBebida = vb;
+        setValorMenu();
     }
 
     public double getValorPostre() {

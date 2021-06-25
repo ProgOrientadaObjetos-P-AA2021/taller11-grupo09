@@ -13,6 +13,7 @@ public class MenuNiños extends Menu {
         super(nom, vI);
         valorHelado = vh;
         valorPastel = vp;
+        setValorMenu();
     }
 
     public double getValorHelado() {

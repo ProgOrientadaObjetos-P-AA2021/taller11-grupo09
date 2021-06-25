@@ -10,6 +10,8 @@ public class MenuEconomico extends Menu {
     
     public MenuEconomico(String nom, double vI){
         super(nom, vI);
+        setDescuento();
+        setValorMenu();
     }
     
     public void setDescuento(){
